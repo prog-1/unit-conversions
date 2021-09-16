@@ -16,6 +16,6 @@ func main() {
 	fmt.Print("Enter the length and the bredth of the rectangle: ")
 	var l, b float64
 	fmt.Scanln(&l, &b)
-	fmt.Printf("Perimter: %.2f, square: %.2f", (l+b)*2, l*b)
+	fmt.Printf("Perimeter: %.2f, square: %.2f", (l+b)*2, l*b)
 	// ++ Your code here! ++
 }
