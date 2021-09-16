@@ -13,5 +13,9 @@ The temperature in Fahrenheit: 212.00
 */
 func main() {
 	fmt.Println("The program converts temperature from Celsius to Fahrenheit.")
+	fmt.Print("Enter the temperature in Celsius: ")
+	var c float64
+	fmt.Scanln(&c)
+	fmt.Printf("The temperature in Fahrenheit: %.2f", c*9/5+32)
 	// ++ Your code here! ++
 }
