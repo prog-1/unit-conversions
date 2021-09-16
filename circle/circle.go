@@ -19,7 +19,7 @@ func main() {
 	fmt.Print("Enter the radius: ")
 	var r float64
 	fmt.Scanln(&r)
-	fmt.Printf("Perimeter: %.2f, square: %.2f\n", 2*math.Pi*r, math.Pi*r*r)
+	fmt.Printf("Perimeter: %.2f, square: %.2f", 2*math.Pi*r, math.Pi*r*r)
 	// ++ Your code here! ++
 	//
 	// Hint: Use math.Pi constant (https://pkg.go.dev/math#pkg-constants) to obtain π value.
