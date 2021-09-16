@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /*
-
+-
 Sample input/output:
 
 The program converts temperature from Celsius to Fahrenheit.
