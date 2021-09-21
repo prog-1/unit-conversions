@@ -94,3 +94,21 @@ Enter the temperature in Celsius:
 100
 The temperature in Fahrenheit: 212
 ```
+
+### Quadratic equation (3 points)
+
+Given coefficients `A`, `B`, and `C` of a quadratic equation `Ax^2 + Bx + C =
+0`, write a program that prints the equation solutions `x1` and `x2`.
+
+You will need to use [math.Sqrt](https://pkg.go.dev/math#Sqrt) function to calculate a square root.
+
+
+Example:
+
+```
+The program finds solutions of a quadratic equation.
+Enter the coefficients A, B and C:
+1 3 -10
+x1 = 2
+x2 = -5
+```
