@@ -95,7 +95,7 @@ Enter the temperature in Celsius:
 The temperature in Fahrenheit: 212
 ```
 
-### Quadratic equation (3 points)
+### Quadratic equation (4 points)
 
 Given coefficients `A`, `B`, and `C` of a quadratic equation `Ax^2 + Bx + C =
 0`, write a program that prints the equation solutions `x1` and `x2`.
@@ -111,4 +111,43 @@ Enter the coefficients A, B and C:
 1 3 -10
 x1 = 2
 x2 = -5
+```
+
+### Max and min (8 points)
+
+Write 4 programs (each in a separate subdirectory):
+
+1. a program that calculates the maximum of two numbers. You can use the
+   following formula: `max(a, b) = (a + b + |a - b|)/2`. You will need to use
+   [math.Abs](https://pkg.go.dev/math#Abs) function to calculate an absolute
+   value. Example:
+
+   ```
+   The program finds the maximum of two numbers max(a, b).
+   Enter two numbers:
+   5 7
+   max: 7
+   ```
+
+1. A program that calculates the minimum of two numbers `min(a, b)`.
+
+1. A program that calculates the maximum of three numbers `max(a, b, c)`.
+
+1. A program that calculates the minimum of three numbers `min(a, b, c)`.
+
+### Resistance (3 points)
+
+Write a program that calculates the resistance `R` of two resistors with the
+resistance `R1` and `R2` assuming that
+
+1. the resistors `R1` and `R2` are connected in series, i.e. `R = R1 + R2`;
+1. the resistors are connected in parallel, i.e. `1 / R = 1 / R1 + 1 / R2`.
+
+Example:
+
+```
+The program calculates the resistance R of two resistors.
+Enter the resistance of two resistors:
+4 8
+Resistance when connected in series is 12; resistance when connected in parallel is 2.6666666666666665.
 ```
