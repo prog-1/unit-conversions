@@ -36,6 +36,8 @@ The workflow to complete and submit the assignment is the following:
 
 ### Rectangle (2 points)
 
+Directory `rectangle`.
+
 The program must print the perimeter and the square of a rectangle given the
 rectangle (non-opposite) sides.
 
@@ -50,6 +52,8 @@ Square: 22
 ```
 
 ### Circle (2 points)
+
+Directory `circle`.
 
 The programm must print the perimeter and the square of a circle given the
 circle radius.
@@ -68,6 +72,8 @@ You will need to use [math.Pi](https://pkg.go.dev/math#pkg-constants) constant t
 
 ### Speed (2 points)
 
+Directory `speed`.
+
 The program must convert the speed in `km/h` to the speed in `m/s`.
 
 Example:
@@ -80,6 +86,8 @@ The speed in m/s: 27.77777777777778
 ```
 
 ### Temperature (2 points)
+
+Directory `temperature`.
 
 The program must convert Celsius degrees to Fahrenheit degrees. Finding a
 conversion formula is part of the exercise.
@@ -94,6 +102,8 @@ The temperature in Fahrenheit: 212
 ```
 
 ### Quadratic equation (4 points)
+
+Directory `quadratic`.
 
 Given coefficients `A`, `B`, and `C` of a quadratic equation `Ax^2 + Bx + C =
 0`, write a program that prints the equation solutions `x1` and `x2`.
@@ -113,12 +123,14 @@ x2 = -5
 
 ### Max and min (8 points)
 
+Directory `maxmin`.
+
 Write 4 programs (each in a separate subdirectory):
 
-1. a program that calculates the maximum of two numbers. You can use the
-   following formula: `max(a, b) = (a + b + |a - b|)/2`. You will need to use
-   [math.Abs](https://pkg.go.dev/math#Abs) function to calculate an absolute
-   value. Example:
+1. (`maxmin/max2`) a program that calculates the maximum of two numbers. You
+   can use the following formula: `max(a, b) = (a + b + |a - b|)/2`. You will
+   need to use [math.Abs](https://pkg.go.dev/math#Abs) function to calculate an
+   absolute value. Example:
 
    ```
    The program finds the maximum of two numbers max(a, b).
@@ -127,13 +139,15 @@ Write 4 programs (each in a separate subdirectory):
    max: 7
    ```
 
-1. A program that calculates the minimum of two numbers `min(a, b)`.
+1. (`maxmin/min2`) a program that calculates the minimum of two numbers `min(a, b)`,
 
-1. A program that calculates the maximum of three numbers `max(a, b, c)`.
+1. (`maxmin/max3`) a program that calculates the maximum of three numbers `max(a, b, c)`,
 
-1. A program that calculates the minimum of three numbers `min(a, b, c)`.
+1. (`maxmin/min3`) a program that calculates the minimum of three numbers `min(a, b, c)`,
 
 ### Resistance (3 points)
+
+Directory `resistance`.
 
 Write a program that calculates the resistance `R` of two resistors with the
 resistance `R1` and `R2` assuming that
