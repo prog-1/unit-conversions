@@ -23,8 +23,8 @@ func main() {
 	// Hint: Use math.Pi constant (https://pkg.go.dev/math#pkg-constants) to obtain π value.
 	var r float64
 	const π = math.Pi
-	fmt.Println("Enter the radius: ")
+	fmt.Println("Enter the radius:")
 	fmt.Scan(&r)
 	fmt.Println("Perimeter:", 2*π*r)
-	fmt.Println("Square:", π*r*r)
+	fmt.Println("Square:", π*(r*r))
 }
