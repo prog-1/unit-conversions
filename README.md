@@ -13,8 +13,6 @@ the repository. The tests for a correct program must pass.
    * [fmt.Println](https://pkg.go.dev/fmt#Println)
    * [fmt.Scan](https://pkg.go.dev/fmt#Scan)
 
-1. While printing `float64` values, use formatting with 2 digits precision (see [example](https://play.golang.org/p/m7miCyzIaie)).
-
 ## Submission
 
 The workflow to complete and submit the assignment is the following:
