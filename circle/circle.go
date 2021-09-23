@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 /*
@@ -20,4 +21,14 @@ func main() {
 	// ++ Your code here! ++
 	//
 	// Hint: Use math.Pi constant (https://pkg.go.dev/math#pkg-constants) to obtain π value.
+	var rad float64
+	fmt.Print("Enter the radius:")
+	fmt.Scan(&rad)
+	var per float64
+	per = rad * 2 * math.Pi
+	fmt.Println("Perimeter:", per)
+	var sq float64
+	sq = rad * rad * math.Pi
+	fmt.Println("Square:", sq)
+
 }
