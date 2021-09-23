@@ -10,8 +10,10 @@ import (
 Sample input/output:
 
 The program prints the perimeter and the square of a circle given the radius.
-Enter the radius: 8
-Perimeter: 50.27, square: 201.06
+Enter the radius:
+8
+Perimeter: 50.26548245743669
+Square: 201.06192982974676
 
 */
 func main() {
