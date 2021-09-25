@@ -1,4 +1,4 @@
-# Conversions
+# abobus
 
 The repository contains a boilerplate code for programs that do some sort of a
 unit conversion or mathematical calculations.
