@@ -5,8 +5,8 @@ import (
 	"math"
 )
 
-func max(a, b float64) float64 {
-	return (a + b + math.Abs(a-b)) / 2
+func min(a, b float64) float64 {
+	return (a + b - math.Abs(a-b)) / 2
 }
 
 func main() {
@@ -15,6 +15,6 @@ func main() {
 	var a, b, c float64
 	fmt.Scan(&a, &b, &c)
 
-	fmt.Println("max=", max(max(a, b), c))
+	fmt.Println("min= ", min(min(a, b), c))
 
 }
