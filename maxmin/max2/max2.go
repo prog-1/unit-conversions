@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("Enter two numbers:")
 	var a, b float64
 	fmt.Scan(&a, &b)
-	max := math.Max(a, b)
-	//max := (a + b + |a - b|) / 2  shows error with first "|" and ")" and doesn't work.
+	//max := math.Max(a, b)
+	max := (a + b + math.Abs(a-b)) / 2
 	fmt.Printf("max: %v", max)
 }
