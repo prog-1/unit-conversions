@@ -14,9 +14,9 @@ import (
 func main() {
 	fmt.Println("The program finds the maximum of two numbers.")
 	fmt.Println("Enter two numbers:")
-	var a float64
-	var b float64
+	var a, b float64
 	fmt.Scan(&a, &b)
-	var max = math.Max(a, b)
+	max := math.Max(a, b)
+	//max := (a + b + |a - b|) / 2  shows error with first "|" and ")" and doesn't work.
 	fmt.Printf("max: %v", max)
 }
