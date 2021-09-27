@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
@@ -9,11 +10,7 @@ func main() {
 	fmt.Println("Enter three numbers:")
 	var a, b, c float64
 	fmt.Scan(&a, &b, &c)
-	if a < b && a < c {
-		fmt.Println("Min:", a)
-	} else if b < c {
-		fmt.Println("Min:", b)
-	} else {
-		fmt.Println("Min:", c)
-	}
+	m := (a + b - math.Abs(a-b)) / 2
+	min := (m + c - math.Abs(m-c)) / 2
+	fmt.Println("Min:", min)
 }
