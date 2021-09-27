@@ -7,8 +7,8 @@ func main() {
 	fmt.Println("Enter the resistance of two resistors:")
 	var r1, r2 float64
 	fmt.Scan(&r1, &r2)
-	Rs := r1 + r2
-	Rp := 1/r1 + 1/r2
-	fmt.Println("Resistance when connected in series is:", Rs)
-	fmt.Println("Resistance when connected in parallel is:", 1/Rp)
+	rs := r1 + r2
+	rp := 1/r1 + 1/r2
+	fmt.Println("Resistance when connected in series is:", rs)
+	fmt.Println("Resistance when connected in parallel is:", 1/rp)
 }
