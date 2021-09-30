@@ -14,7 +14,6 @@ func main() {
 	fmt.Scan(&a, &b, &c)
 	//var min = math.Min(math.Min(a, b), c)
 	min1 := (a + b - math.Abs(a-b)) / 2
-	min2 := (b + c - math.Abs(b-c)) / 2
-	min := (min1 + min2 - math.Abs(min1-min2)) / 2
+	min := (min1 + c - math.Abs(min1-c)) / 2
 	fmt.Printf("min: %v", min)
 }

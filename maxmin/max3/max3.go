@@ -14,7 +14,7 @@ func main() {
 	fmt.Scan(&a, &b, &c)
 	//max := math.Max(math.Max(a, b), c)
 	max1 := (a + b + math.Abs(a-b)) / 2
-	max2 := (b + c + math.Abs(b-c)) / 2
-	max := (max1 + max2 + math.Abs(max1-max2)) / 2
+	max := (max1 + c + math.Abs(max1-c)) / 2
+
 	fmt.Printf("max: %v", max)
 }
