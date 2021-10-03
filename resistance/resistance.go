@@ -10,7 +10,7 @@ func main() {
 	var a, b float64
 	fmt.Scanln(&a, &b)
 	R := a + b
-	R2 := 1/a + 1/b
-	R3 := 1 / R2
+	G := 1/a + 1/b
+	R3 := 1 / G
 	fmt.Println("Resistance when connected in series is", R, "; resistance when connected in parallel is", R3)
 }
