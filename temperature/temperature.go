@@ -2,17 +2,11 @@ package main
 
 import "fmt"
 
-/*
-
-Sample input/output:
-
-The program converts temperature from Celsius to Fahrenheit.
-Enter the temperature in Celsius:
-100
-The temperature in Fahrenheit: 212
-
-*/
 func main() {
 	fmt.Println("The program converts temperature from Celsius to Fahrenheit.")
-	// ++ Your code here! ++
+	fmt.Println("Enter the temperature in Celsius:")
+	var cels float64
+	fmt.Scanln(&cels)
+	fahrenh := cels*1.8 + 32
+	fmt.Println("The temperature in Fahrenheit:", fahrenh)
 }
