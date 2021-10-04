@@ -14,5 +14,10 @@ The temperature in Fahrenheit: 212
 */
 func main() {
 	fmt.Println("The program converts temperature from Celsius to Fahrenheit.")
-	// ++ Your code here! ++
+	var tempC float64
+	fmt.Println("Enter the temperature in C:")
+	fmt.Scanln(&tempC)
+	var tempF float64
+	tempF = tempC*9/5 + 32
+	fmt.Println("Tje temperature in F:" tempF)
 }
