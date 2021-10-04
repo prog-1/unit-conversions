@@ -17,7 +17,12 @@ Square: 201.06192982974676
 */
 func main() {
 	fmt.Println("The program prints the perimeter and the square of a circle given the radius.")
-	// ++ Your code here! ++
-	//
-	// Hint: Use math.Pi constant (https://pkg.go.dev/math#pkg-constants) to obtain π value.
+	var radius float64
+	fmt.Println("Enter the radius:")
+	fmt.Scanln(&radius)
+	perimeter := radius * 2 * math.Pi 
+	fmt.Println("Enter the perimeter:", perimeter)
+	var square float64
+	square = radius * radius * math.Pi
+	fmt.Println("Enter the square:", square)
 }
