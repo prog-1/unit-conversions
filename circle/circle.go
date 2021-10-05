@@ -21,8 +21,8 @@ func main() {
 	fmt.Println("Enter the radius:")
 	fmt.Scanln(&radius)
 	perimeter := radius * 2 * math.Pi 
-	fmt.Println("Enter the perimeter:", perimeter)
 	var square float64
 	square = radius * radius * math.Pi
-	fmt.Println("Enter the square:", square)
+	fmt.Println("Perimeter", perimeter)
+	fmt.Println("Square", square)
 }
