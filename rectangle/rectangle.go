@@ -16,10 +16,11 @@ Square: 22
 func main() {
 	fmt.Println("The program prints the perimeter and the square of a rectangle given the rectangle sides.")
 	fmt.Println("Enter the resistance of two resistors:")
-	var a,b float64
+	var a, b float64
+	fmt.Println("Enter the lenght an the breadth of the rectangle")
 	fmt.Scanln(&a, &b)
-	R := a + b
-	G:= 1/a +1/b
-	R3 := 1 / G
-	fmt.Ptinln("Resistance when connected in series is", R, "resistance when connected in parallel is", R3)
+	Perimeter := (a + b) * 2
+	Square := a * b
+	fmt.Println("Perimeter:", perimeter)
+	fmt.Println("Square:", square)
 }
