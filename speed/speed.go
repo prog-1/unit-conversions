@@ -18,6 +18,6 @@ func main() {
 	fmt.Println("Enter the speed in km/h:")
 	fmt.Scanln(&kmph)
 	var mps float64
-	mps = kmph / 3.6
+	mps := kmph / 3.6
 	fmt.Println("Speed in m/s:", mps)
 }
