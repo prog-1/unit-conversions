@@ -11,6 +11,6 @@ func main() {
 	fmt.Scanln(&a, &b)
 	R := a + b
 	G := 1/a + 1/b
-	R3 :+ 1 / G 
+	R3 := 1 / G 
 	fmt.Println("Resistance when connected in series is", R, "; resistance when connected in parallel is", R3)
 }

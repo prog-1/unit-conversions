@@ -19,5 +19,5 @@ func main() {
 	fmt.Scanln(&tempC)
 	var tempF float64
 	tempF = tempC*9/5 + 32
-	fmt.Println("Tje temperature in F:" tempF)
+	fmt.Println("The temperature in F:" tempF)
 }

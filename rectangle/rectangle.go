@@ -18,6 +18,8 @@ func main() {
 	var a, b float64
 	fmt.Println("Enter the lenght and the breadth of the rectangle")
 	fmt.Scanln(&a, &b)
-	fmt.Println("Perimeter:", (a+b)*2)
-	fmt.Println("Square:", a*b)
+	Perimeter := (a + b) * 2
+	Square := a * b
+	fmt.Println("Perimeter:", perimeter)
+	fmt.Println("Square", square)
 }
