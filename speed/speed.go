@@ -14,5 +14,8 @@ The speed in m/s: 27.77777777777778
 */
 func main() {
 	fmt.Println("The program converts km/h to m/s.")
-	// ++ Your code here! ++
+	var speed float64
+	fmt.Println("Enter speed in km/h")
+	fmt.Scan(&speed)
+	fmt.Println("speed in m/s:", speed/27.7)
 }
