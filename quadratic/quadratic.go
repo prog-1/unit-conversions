@@ -12,7 +12,7 @@ func main() {
 	fmt.Scan(&a, &b, &c)
 	//ax^2 + bx + c
 	d := b * b - 4 * a * C
-	x1 := (-b + math.Sqrt(D)) / (2 * a)
-	x2 := (-b - math.Sqrt(D)) / (2 * a)
+	x1 := (-b + math.Sqrt(d)) / (2 * a)
+	x2 := (-b - math.Sqrt(d)) / (2 * a)
 	fmt.Println("x1 = ",x1 ,"x2 = ",x2)
 }
