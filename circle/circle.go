@@ -1,7 +1,8 @@
 package main
 
 import (
-	"fmt"
+	"fmt" 
+
 	"math"
 )
 
@@ -23,7 +24,7 @@ func main() {
 	fmt.Scan(&r)
 	per = 2 * r * math.Pi
 	sqr = math.Pi * r * r
-	fmt.Println("Perimetr: ", per)
-	fmt.Println("square: ", sqr)
+	fmt.Println("Perimetr: ", per )
+	fmt.Println("square: ", sqr )
 
 }
