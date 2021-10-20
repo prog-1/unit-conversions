@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("The program finds the maximum of two numbers max(a, b).")
-	var a ,b float64
+	var a ,b ,max float64
 	fmt.Println("Enter numbers: ")
 	fmt.Scan(&a, &b)
 	//max(a, b) = (a + b + |a - b|)/2
