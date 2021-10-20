@@ -10,7 +10,7 @@ func main() {
 	var a, b, c float64
 	fmt.Println("Enter three numbers: ")
 	fmt.Scanln(&a, &b, &c)
-	min1 := (a + b - math.Abs(a-b)) / 2
-	min2 := (c + min1 - math.Abs (c - min1)) / 2
-	fmt.Println("Max is: ", min2)
+	max1 := (a + b + math.Abs(a-b)) / 2
+	max2 := (c + max1 + math.Abs (c - max1)) / 2
+	fmt.Println("Max is: ", max2)
 }
