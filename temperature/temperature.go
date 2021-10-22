@@ -17,7 +17,7 @@ func main() {
 	var cel float64
 	fmt.Println("Enter the temperature in Celsius: ")
 	fmt.Scan(&cel)
-	tem = (cel * 9/5) + 32
+	tem := (cel * 9/5) + 32
 	fmt.Println("The temperature in Fahrenheit: ", tem)
 
 }
