@@ -17,6 +17,6 @@ func main() {
 	var sk float64
 	fmt.Println("Enter speed km/h: ")
 	fmt.Scan(&sk)
-    spe := sk * 1000
+    	spe := sk * 1000
 	fmt.Println("Speed is ", spe)
 }
