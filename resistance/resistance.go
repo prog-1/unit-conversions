@@ -16,5 +16,5 @@ func main() {
 	r := a + b
 	r1 := 1 / a + 1 / b
 	r2 := 1 / r1
-	fmt.Println(r ,r1 ,r2 )
+	fmt.Println(r ,r2 )
 }
