@@ -15,5 +15,11 @@ Square: 22
 */
 func main() {
 	fmt.Println("The program prints the perimeter and the square of a rectangle given the rectangle sides.")
-	// ++ Your code here! ++
+	fmt.Print("Enter the length and the breadth of the rectangle:")
+	var a, b float64
+	fmt.Scan(&a, &b)
+	p := (a + b) * 2
+	s := a * b
+	fmt.Println("Perimeter:", p)
+	fmt.Println("Square:", s)
 }
